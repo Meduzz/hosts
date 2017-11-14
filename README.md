@@ -50,4 +50,4 @@ Will remove all rows with a "domain" matching db.local from your /etc/hosts.
 
 Will remove all rows with a "domain" matching dev.local from your ~/etc/hosts.
 
-If the user executing are lacking permissions, there shall be errors.
+If the user executing are lacking permissions, there shall be errors (and they shall be pretty...ish).
