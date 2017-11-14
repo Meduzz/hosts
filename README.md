@@ -29,25 +29,25 @@ Tweak the build script to roll your own.
 
 # Usage
 
-> hosts + domain
+> hosts + dev.local
 
-Will add/change domain in your /etc/hosts with ip 127.0.0.1.
+Will add/change dev.local in your /etc/hosts with ip 127.0.0.1.
 
-> hosts + domain 127.0.0.2
+> hosts + test.local 127.0.0.2
 
-Will add/change domain to 127.0.0.2 in your /etc/hosts.
+Will add/change test.local to 127.0.0.2 in your /etc/hosts.
 
-> hosts + domain 127.0.0.3 ~/etc/hosts
+> hosts + db.local 127.0.0.3 ~/etc/hosts
 
-Will add/change domain to 127.0.0.3 in your
+Will add/change db.local to 127.0.0.3 in your
 ~/etc/hosts.
 
-> hosts - domain
+> hosts - db.local
 
-Will remove all rows with a "domain" matching domain from your /etc/hosts.
+Will remove all rows with a "domain" matching db.local from your /etc/hosts.
 
-> hosts - domain ~/etc/hosts
+> hosts - dev.local ~/etc/hosts
 
-Will remove all rows with a "domain" matching domain from your ~/etc/hosts.
+Will remove all rows with a "domain" matching dev.local from your ~/etc/hosts.
 
 If the user executing are lacking permissions, there shall be errors.
